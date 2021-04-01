@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+a:hover{
+	text-decoration: none;
+}
+.modal-lg{
+		max-width: 1100px !important;
+}
+.preview {
+		overflow: hidden;
+		width: 200px;
+		height: 200px;
+		margin: 5px auto;
+		border: 1px solid green;
+}
+.list-bg-thumb ul{
+	display: flex;
+	justify-content: center;
+}
+.list-bg-thumb ul li{
+	list-style: none;
+	display: inline-block;
+	margin:0px 10px;
+	cursor: pointer;
+}
+.list-bg-thumb ul li img{
+	width: 60px;
+}
+
+#iframe_image{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: none;
+
+}
+img#image_src {
+    border: 10px solid #fff;
+	-webkit-box-shadow: -1px 2px 5px 4px rgba(0,0,0,0.48);
+	-moz-box-shadow: -1px 2px 5px 4px rgba(0,0,0,0.48);
+	box-shadow: -1px 2px 5px 4px rgba(0,0,0,0.48);
+}
+.header-menu
+{
+	display: flex;
+	justify-content: space-between;
+}
+.menu-right ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 0px 10px;
+}
+.image_download i {
+	font-size: 25px;
+	-webkit-animation: bounce 2s;
+	animation: bounce 2s;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	cursor: pointer;
+
+}
+.image_download i:hover{animation: none;}
+@-webkit-keyframes bounce {
+	0%,
+	25%,
+	50%,
+	75%,
+	100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+	60% {
+		-webkit-transform: translateY(-12px);
+		transform: translateY(-12px);
+	}
+}
+.box-show-video{
+	padding: 50px 0px;
+}
+.box-show-video p{
+	display: flex;
+	justify-content: center;
+}
+.area-upload{
+
+}
+.box-show-image div img{
+	-webkit-box-shadow: -1px 2px 5px 4px rgba(0,0,0,0.48);
+	-moz-box-shadow: -1px 2px 5px 4px rgba(0,0,0,0.48);
+	box-shadow: -1px 2px 5px 4px rgba(0,0,0,0.48);
+	margin: 10px 0px;
+	border: 8px solid #fff;
+}
+.slick-slide {
+    outline: none!important;
+}
+.slick-prev, .slick-next {
+    background: none!important;
+}
+.slick-prev:before, .slick-next:before {
+     opacity: 1!important;
+    color: #d4a073!important;
+    font-size: 35px!important;
+}
+.slick-next {
+    right: 30px !important;
+    top: -30px !important;
+    display: none!important;
+}
+.slick-prev {
+    right: 75px !important;
+    top: -30px !important;
+    display: none!important;
+}
+header {
+    width: 100%;
+    height: 85px;
+}
+.color-main{
+	color: #d4a073!important;
+}
+.bg-main{
+	background: #d4a073!important;
+}
+.logo a {
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: 800;
+    color: #fff;
+    display: block;
+}
+.name_function h3{
+    margin-top: 18px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    display: block;
+}
+.menu-right ul li a{
+	margin-top: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    display: block;
+}
+.form-group label i{
+	color: #fff;
+	cursor: pointer;
+}
+.back_page{font-size: 20px;cursor: pointer;}
+.back_page span {margin-left: 8px;}
+
+img.active {
+    border: 1px solid #d4a073;
+    padding: 3px;
+}
+.before-review {
+    width: 100%;
+    height: 420px;
+    border: 1px dashed #d4a073;
+    text-align: center;
+    position: relative;
+}
+.before-review p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-weight: 600;
+}
+.box-show-video p iframe {
+    border: 10px solid #fff;
+    -webkit-box-shadow: 0px 0px 5px 3px rgb(0 0 0 / 73%);
+    -moz-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.73);
+    box-shadow: 0px 0px 5px 3px rgb(0 0 0 / 73%);
+}
+.btn-choose-cavas {
+    display: inline-block;
+    text-align: left;
+    margin: 10px 0px 10px 20px;
+}
+.btn-choose-cavas button {
+    margin: 3px 0px;
+}
+.modal-footer2{
+	border-top: 1px solid #e9ecef;
+    text-align: center;
+    padding-top: 30px;
+}
+.area-upload {
+    width: 800px;
+    height: 450px;
+    border: 2px dashed #d4a073;
+    position: relative;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+.content-area-upload {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.content-area-upload label {
+    font-size: 161px;
+    cursor: pointer;
+}
+.data-crop {
+    margin: 0px 30px;
+}
+.data-crop > .input-group {
+    margin-bottom: 0.5rem;
+}
+img#image_add_ifame {
+    max-width: 550px;
+    padding: 12px 26px 25px 25px;
+}
